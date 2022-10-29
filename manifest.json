@@ -1,0 +1,13 @@
+{
+    "name": "ShitsnGigs",
+    "description": "This is literally a joke",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts":[
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["jquery.js","popup.js"]
+        }
+    ]
+    
+}
